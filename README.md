@@ -1,15 +1,8 @@
-# Functions Added to XV6 
-- waitx
-- time
-- set_priority
-- setpriority
-- strace
-- Scheduling Algorithms
-    - FCFS
-    - PBS
-- procdump
+# Modified_XV6
+Some functions and system calls are added to XV6 to support various scheduling algorithms
 
-# description of the functions added 
+## Description of added Features
+
 1. waitx()
     - This is implemented by modifing the pre-existing wait().
     - It clauclates rtime, wtime, ctime.
